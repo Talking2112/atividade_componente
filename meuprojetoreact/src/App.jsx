@@ -1,14 +1,13 @@
 import Componente01 from "./componentes/Componente01"
 import Componente02 from "./componentes/Componente02"
-import './App.css'
+import React from "react"
 
-function App(){
+function App () {
   return(
     <div>
-    <Componente01/>
-    <Componente02/>
-    
-  </div>
+      <Componente01/>
+      <Componente02/>
+    </div>
   )
 }
 
